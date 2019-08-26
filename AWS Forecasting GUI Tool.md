@@ -23,14 +23,12 @@ Access the tool using:
 ### Step 1 : Import Training Data
 1. Create dataset group
 > This step was easy to follow. I used the domain called "Metric", which represented revenue and sales data.
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/dataset_group.png)
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/dataset_group.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/dataset_group.PNG).
 
 2. Specify dataset details
 > Although the explantion of each field is clear, the data being used for the model must follow the schema as shown in the example, which means the order of the columns must be the same as the order of the schema.
-
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/dataset_details.png)
-
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/dataset_details.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/dataset_details.PNG).
 
 3. Import the time series data from S3 bucket
@@ -62,9 +60,7 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
      * [Exponential Smoothing Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-ets.html)
      * [Non-Parametric Time Series Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-npts.html)
      * [Prophet](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-prophet.html)
-
 ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/train_predictor.PNG)
-
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/train_predictor.PNG).
 
 > **Note**: This can take a long time to train depending on the algorithm and amount of data. For a dataset of ~10,000 rows using the AutoML approach, it took around 30-40 minutes. 
@@ -72,8 +68,6 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 ### Step 3 : Create a forecast
 
 At this point, your dashboard for this dataset group should look like this: ![](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step3-trained.png)
-
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_details.PNG)
 
 1. Create a forecast
 > Once you've clicked the 'Start' button, you will be brought to this page:
@@ -84,15 +78,15 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 > Here your predictor is likely either an AutoML, Prophet, or one of the other modeling options you built your forecast with. Once you click 'Create a forecast', the forecast should be done within minutes. <br> This image will appear on your screen with the forecast is done. ![](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step3-created-banner.png)
 
 ### Step 4 : Forecast Lookup
-> Since we want to look at an item in our data that has a lot of data, we will get the forecast for the most common value. ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/value_counts.png)
+> Since we want to look at an item in our data that has a lot of data, we will get the forecast for the most common value. ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/value_counts.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/value_counts.PNG).
 
-> At this step, you can see the prediction of the data. The details required for this step are specified here: ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_lookup_details.png)
+> At this step, you can see the prediction of the data. The details required for this step are specified here: ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_lookup_details.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/forecast_lookup_details.PNG).
 
 > Even though the Start date and End date boxes have any date as an option to choose from, this page will not submit without times that work for your data. The timeframe in which you can see is very limited. 
 
-> ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_visuals.png)
+> ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_visuals.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/forecast_visuals.PNG).
 
 ### Understanding the Forecast
