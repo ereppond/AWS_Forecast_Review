@@ -23,7 +23,7 @@ Access the tool using:
 ### Step 1 : Import Training Data
 1. Create dataset group
 > This step was easy to follow. I used the domain called "Metric", which represented revenue and sales data.
-![](pictures/dataset_group.png)
+![](pictures/dataset_group.png?raw=true "Title")
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/dataset_group.PNG).
 
 2. Specify dataset details
@@ -40,7 +40,7 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 
 4. Start the import
 > Clicking start import begins the importing process, which took about 3 minutes for a dataset of ~10,000 rows. 
-<br> Once the data has been imported, the following banner should appear. ![pic6](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step1-imported-banner.png)
+<br> Once the data has been imported, the following banner should appear. ![](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step1-imported-banner.png)
 
 
 5. OPTIONAL - add metadata and/or related time series data
@@ -65,7 +65,9 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 
 ### Step 3 : Create a forecast
 
-At this point, your dashboard for this dataset group should look like this: ![pic8](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step3-trained.png)
+At this point, your dashboard for this dataset group should look like this: ![](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step3-trained.png)
+
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_details.PNG)
 
 1. Create a forecast
 > Once you've clicked the 'Start' button, you will be brought to this page:
