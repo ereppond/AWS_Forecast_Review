@@ -28,14 +28,18 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 
 2. Specify dataset details
 > Although the explantion of each field is clear, the data being used for the model must follow the schema as shown in the example, which means the order of the columns must be the same as the order of the schema.
+
 ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/dataset_details.png)
+
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/dataset_details.PNG).
 
 3. Import the time series data from S3 bucket
 > This page was nice because it was straight forward in that it allows you to simply reference the path to the data in your S3 bucket and the Role ARN to retrieve the data. You also have the option of having the tool create an IAM role for the purpose of forecasting on this page if one is not already created. 
 > * IAM role – Keep the default Enter a custom IAM role ARN.
 > * Alternatively, you can have Amazon Forecast create the required IAM role for you by choosing Create a new role from the drop-down menu and following the on-screen instructions.
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/import_time_series_data.png)
+
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/import_time_series_data.PNG)
+
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/import_time_series_data.PNG).
 
 4. Start the import
@@ -58,7 +62,9 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
      * [Exponential Smoothing Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-ets.html)
      * [Non-Parametric Time Series Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-npts.html)
      * [Prophet](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-prophet.html)
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/train_predictor.png)
+
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/train_predictor.PNG)
+
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/train_predictor.PNG).
 
 > **Note**: This can take a long time to train depending on the algorithm and amount of data. For a dataset of ~10,000 rows using the AutoML approach, it took around 30-40 minutes. 
