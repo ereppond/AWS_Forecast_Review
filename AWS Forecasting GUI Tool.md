@@ -52,12 +52,12 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 
 1. Specify the parameters of the model
 > Documentation on this step is clear. 
-> * algorithm selection allows you to either have the automated algorithm, or choose your own algorithm from the following: 
+> * algorithm selection allows you to either have the automated algorithm, or choose your own algorithm from the following: <br>
      * [ARIMA](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-arima.html)
      * [DeepAR+ Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-deeparplus.html)
      * [Exponential Smoothing Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-ets.html)
      * [Non-Parametric Time Series Algorithm](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-npts.html)
-     * [Prophet](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-prophet.html)
+     * [Prophet](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-recipe-prophet.html)<br>
 ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/train_predictor.PNG)<br>
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/train_predictor.PNG).
 
@@ -76,7 +76,7 @@ For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/
 > Here your predictor is likely either an AutoML, Prophet, or one of the other modeling options you built your forecast with. Once you click 'Create a forecast', the forecast should be done within minutes. <br> This image will appear on your screen with the forecast is done. ![](https://docs.aws.amazon.com/forecast/latest/dg/images/gs-step3-created-banner.png)
 
 ### Step 4 : Forecast Lookup
-> Since we want to look at an item in our data that has a lot of data, we will get the forecast for the most common value. 
+> Since we want to look at an item in our data that has a lot of data, we will get the forecast for the most common value. <br>
 ![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/value_counts.PNG)<br>
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/value_counts.PNG).
 
