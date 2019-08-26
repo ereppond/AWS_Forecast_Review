@@ -77,7 +77,7 @@ At this point, your dashboard for this dataset group should look like this: ![](
 
 1. Create a forecast
 > Once you've clicked the 'Start' button, you will be brought to this page:
-![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_details.png)
+![](https://raw.githubusercontent.com/ereppond/AWS_Forecast_Review/master/pictures/forecast_details.PNG)
 For link to image, click [here](https://github.com/ereppond/AWS_Forecast_Review/blob/master/pictures/forecast_details.PNG).
 
 
